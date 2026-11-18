@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#06432f" />
+    <meta
+      name="description"
+      content="College of Computer Studies at De La Salle John Bosco College in Bislig City, Surigao del Sur."
+    />
+    <title>Home | De La Salle John Bosco College</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Sans+3:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#home" aria-label="College of Computer Studies home">
+          <img src="images/ccs-crest.png" alt="CCS Pseudocode.com Society crest" />
+          <span class="brand-copy">
+            <strong>College of Computer Studies</strong>
+            <small>DLSJBC · BISLIG CITY</small>
+          </span>
+        </a>
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#home" data-route="home">Home</a>
+          <a href="#about" data-route="about">About Us</a>
+          <a href="#academics" data-route="academics">Academics</a>
+          <a href="#admissions" data-route="admissions">Admissions</a>
+          <a href="#news" data-route="news">News &amp; Events</a>
+          <a href="#contact" data-route="contact">Contact Us</a>
+        </nav>
+        <a class="header-apply" href="#admissions">Apply Now</a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-navigation"
+          aria-label="Open navigation menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation" hidden>
+        <a href="#home" data-route="home">Home</a>
+        <a href="#about" data-route="about">About Us</a>
+        <a href="#academics" data-route="academics">Academics</a>
+        <a href="#admissions" data-route="admissions">Admissions</a>
+        <a href="#news" data-route="news">News &amp; Events</a>
+        <a href="#contact" data-route="contact">Contact Us</a>
+        <a class="mobile-apply" href="#admissions">Apply Now</a>
+      </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      <section class="screen home-screen" data-page="home">
+        <section class="home-hero" aria-labelledby="home-title">
+          <div class="home-content">
+            <div class="home-copy">
+              <div class="eyebrow">
+                <span>COLLEGE OF COMPUTER STUDIES</span><i></i><span>Est. 1963</span>
+              </div>
+              <h1 id="home-title">Computing Education<br />Rooted in <em>Lasallian</em><br />Formation</h1>
+              <p class="home-description">
+                The College of Computer Studies at De La Salle John Bosco College prepares graduates to lead in a technology-driven world with the technical depth of a computing curriculum and the moral formation of a Lasallian institution.
+              </p>
+              <div class="home-actions">
+                <a class="button button-green" href="#admissions">Apply for A.Y. 2025–2026</a>
+                <a class="button button-outline" href="#academics">View Programs</a>
+              </div>
+              <div class="program-tags" aria-label="College highlights">
+                <span><i></i> BSCS</span><span><i></i> BSIT</span><span><i></i> CHED RECOGNIZED</span>
+              </div>
+            </div>
+
+            <div class="code-window" aria-label="CCS graduate Python code example">
+              <div class="code-titlebar">
+                <span class="window-controls" aria-hidden="true"><i></i><i></i><i></i></span>
+                <span class="code-tab active">ccs_graduate.py</span>
+                <span class="code-tab">mission.md</span>
+              </div>
+              <div class="code-lines" aria-label="Python example">
+                <div><i>1</i><span class="code-comment"># College of Computer Studies | DLSJBC</span></div>
+                <div><i>2</i><span class="code-comment"># Bislig City, Surigao del Sur, Philippines</span></div>
+                <div><i>3</i><span></span></div>
+                <div><i>4</i><span><b class="code-purple">from</b> formation <b class="code-purple">import</b> LasallianValues</span></div>
+                <div><i>5</i><span><b class="code-purple">from</b> computing&nbsp; <b class="code-purple">import</b> Algorithm, AI</span></div>
+                <div><i>6</i><span><b class="code-purple">from</b> community&nbsp; <b class="code-purple">import</b> Service</span></div>
+                <div><i>7</i><span></span></div>
+                <div><i>8</i><span><b class="code-teal">class</b> <b class="code-yellow">CCSGraduate</b>(LasallianValues):</span></div>
+                <div><i>9</i><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"""Competent. Innovative. Ethical."""</span></span></div>
+                <div><i>10</i><span></span></div>
+                <div><i>11</i><span>&nbsp;&nbsp;&nbsp;&nbsp;programs = [<span class="code-string">"BSCS"</span>, <span class="code-string">"BSIT"</span>]</span></div>
+                <div><i>12</i><span>&nbsp;&nbsp;&nbsp;&nbsp;values&nbsp;&nbsp; = [<span class="code-string">"faith"</span>, <span class="code-string">"service"</span>, <span class="code-string">"community"</span>]</span></div>
+                <div><i>13</i><span></span></div>
+                <div><i>14</i><span>&nbsp;&nbsp;&nbsp;&nbsp;<b class="code-teal">def</b> <b class="code-yellow">solve</b>(self, problem: Problem) -&gt; Solution:</span></div>
+                <div><i>15</i><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="code-purple">return</b> Algorithm.apply(</span></div>
+                <div><i>16</i><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;context = problem.data,</span></div>
+                <div><i>17</i><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ethics&nbsp; = self.values,</span></div>
+                <div><i>18</i><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</span></div>
+                <div><i>19</i><span></span></div>
+                <div><i>20</i><span class="code-comment"># Est. 1963 · Forming leaders in computing</span></div>
+                <div><i>21</i><span>graduate = CCSGraduate(name=<span class="code-string">"You"</span>, year=<b class="code-yellow">2025</b>)<b class="code-cursor"></b></span></div>
+              </div>
+              <div class="code-status">
+                <span>⌁ main</span><span>Python 3.11</span><span class="status-location">CCS · DLSJBC · Bislig City</span><span>UTF-8</span><span>Ln 21, Col 1</span>
+              </div>
+            </div>
+            <div class="scroll-hint"><span></span>Scroll</div>
+          </div>
+        </section>
+
+        <section class="stats-bar" aria-label="College at a glance">
+          <div class="stats-inner">
+            <div><strong>1963</strong><span>Year Founded</span></div>
+            <div><strong>2</strong><span>Degree Programs Offered</span></div>
+            <div><strong>60+</strong><span>Years of Lasallian Education</span></div>
+            <div><strong>CHED</strong><span>Recognized &amp; Accredited</span></div>
+          </div>
+        </section>
+      </section>
+
+      <section class="screen" data-page="about" hidden>
+        <section class="page-banner">
+          <div class="page-banner-inner">
+            <div class="page-label"><span>01</span><i></i><span>ABOUT US</span></div>
+            <h1>Faith, learning, and service in community</h1>
+            <p>Learn about the institutional background and Lasallian values of De La Salle John Bosco College.</p>
+          </div>
+        </section>
+        <section class="about-content content-wrap">
+          <div class="section-label"><span>01</span><i></i><span>OVERVIEW</span></div>
+          <div class="about-grid">
+            <div class="about-copy">
+              <h2>Forming Professionals at the Intersection of Faith and Technology</h2>
+              <p>The College of Computer Studies is the technology faculty of De La Salle John Bosco College, a Catholic Lasallian institution founded in 1963 in Bislig City, Surigao del Sur. Our programs produce graduates who are not merely technically competent, but who possess the ethical grounding and service orientation that define a Lasallian education.</p>
+              <p>We believe that technology, at its best, is a means of service to community, nation, and the broader human family. Our curriculum reflects this conviction, combining rigorous computing fundamentals with research, industry engagement, and community extension rooted in the Lasallian charism of faith, service, and community.</p>
+              <p>Graduates of CCS go on to careers in software development, data science, IT infrastructure, research, and public service, equipped with skills the industry demands and the values society needs.</p>
+              <div class="values-panel">
+                <p class="panel-label">CORE VALUES</p>
+                <ul>
+                  <li><strong>Fides</strong><span>Faith as the foundation of ethical computing practice</span></li>
+                  <li><strong>Servitum</strong><span>Service to community through technology and skill</span></li>
+                  <li><strong>Communitas</strong><span>Community built through shared knowledge and purpose</span></li>
+                </ul>
+              </div>
+            </div>
+            <figure class="about-visual">
+              <img src="images/dlsjbc-campus.png" alt="De La Salle John Bosco College campus, Bislig City" />
+              <figcaption>
+                <blockquote>“We form computing professionals who are technically proficient, deeply ethical, and committed to service, the hallmarks of a Lasallian education.”</blockquote>
+                <span>CCS MISSION STATEMENT</span>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </section>
+
+      <section class="screen" data-page="academics" hidden>
+        <section class="page-banner">
+          <div class="page-banner-inner">
+            <div class="page-label"><span>02</span><i></i><span>ACADEMICS</span></div>
+            <h1>Computing education rooted in formation</h1>
+            <p>Explore the verified College of Computer Studies programs, faculty, learning experience, and support environment.</p>
+          </div>
+        </section>
+        <section class="content-wrap academics-content">
+          <div class="section-intro">
+            <div class="section-label"><span>02</span><i></i><span>PROGRAMS</span></div>
+            <h2>Two Pathways in Computing</h2>
+            <p>CCS offers two CHED-recognized four-year degree programs, each tailored to distinct career paths in the computing profession, from deep theoretical work to hands-on systems practice.</p>
+          </div>
+          <div class="program-grid">
+            <article class="degree-card">
+              <img src="images/dlsjbc-campus.png" alt="Campus of De La Salle John Bosco College" />
+              <div class="degree-body">
+                <div class="degree-meta"><span>[BSCS]</span><small>4-year degree</small></div>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>A rigorous, theory-grounded program preparing graduates for advanced computing careers in algorithm design, artificial intelligence, cybersecurity, and software engineering.</p>
+                <p class="panel-label">AREAS OF FOCUS</p>
+                <ul class="focus-list">
+                  <li><b>CS301</b> Algorithms &amp; Complexity</li>
+                  <li><b>CS410</b> Artificial Intelligence</li>
+                  <li><b>CS420</b> Data Science &amp; Analytics</li>
+                  <li><b>CS430</b> Cybersecurity Fundamentals</li>
+                  <li><b>CS450</b> Software Engineering</li>
+                </ul>
+                <a class="card-link" href="#admissions">Inquire about this program <span>→</span></a>
+              </div>
+            </article>
+            <article class="degree-card">
+              <img src="images/dlsjbc-campus.png" alt="Campus of De La Salle John Bosco College" />
+              <div class="degree-body">
+                <div class="degree-meta"><span>[BSIT]</span><small>4-year degree</small></div>
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p>A practice-oriented program developing professionals in IT systems, networking, and infrastructure, the backbone of every modern organization's technology operations.</p>
+                <p class="panel-label">AREAS OF FOCUS</p>
+                <ul class="focus-list">
+                  <li><b>IT301</b> Systems Administration</li>
+                  <li><b>IT310</b> Network Infrastructure</li>
+                  <li><b>IT320</b> Database Management</li>
+                  <li><b>IT330</b> IT Project Management</li>
+                  <li><b>IT350</b> Technical Support Systems</li>
+                </ul>
+                <a class="card-link" href="#admissions">Inquire about this program <span>→</span></a>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="subsection faculty-section">
+          <div class="content-wrap">
+            <div class="section-label"><span>03</span><i></i><span>FACULTY &amp; STAFF</span></div>
+            <div class="section-intro">
+              <h2>Meet the People Behind CCS</h2>
+              <p>Our faculty and staff bring professional expertise and Lasallian commitment to every student interaction as mentors, practitioners, and servant-leaders.</p>
+            </div>
+            <div class="people-grid">
+              <article><span>DEAN</span><h3>Ms. Glogerlie L. Jumandos, MIT</h3></article>
+              <article><span>PROGRAM IN-CHARGE</span><h3>Ms. Ronalyn L. Goyo</h3></article>
+              <article><span>SOCIETY MODERATOR</span><h3>Mr. Lawrence J. Libar</h3></article>
+              <article><span>FACULTY MEMBER</span><h3>Mr. Dether John J. Olaguir</h3></article>
+              <article><span>FACULTY MEMBER</span><h3>Mr. Richen Temanel</h3></article>
+              <article><span>OFFICER</span><h3>Ms. Jane Celeste G. Lumantas</h3></article>
+            </div>
+          </div>
+        </section>
+        <section class="subsection learning-section">
+          <div class="content-wrap">
+            <div class="section-label"><span>04</span><i></i><span>LEARNING EXPERIENCE</span></div>
+            <div class="section-intro">
+              <h2>A Complete Computing Education</h2>
+              <p>From the first day in the laboratory to the final semester of community service, the CCS curriculum is a carefully sequenced journey from theory to professional practice, shaped by Lasallian values at every stage.</p>
+            </div>
+            <div class="learning-grid">
+              <article><span>01</span><small>FOUNDATION</small><h3>Laboratory Instruction</h3><p>Hands-on practice in purpose-built computing labs with industry-standard software, hardware environments, and guided instruction from specialist faculty.</p></article>
+              <article><span>02</span><small>APPLICATION</small><h3>Industry-Based Projects</h3><p>Collaborative work on real-world projects with industry partners, building portfolio-ready solutions for actual clients in the Caraga Region and beyond.</p></article>
+              <article><span>03</span><small>INQUIRY</small><h3>Research &amp; Development</h3><p>Faculty-mentored inquiry into emerging computing challenges, contributing to the growing body of technology research relevant to regional needs.</p></article>
+              <article><span>04</span><small>PRACTICE</small><h3>Internship &amp; OJT</h3><p>Structured professional immersion with partner organizations in Surigao del Sur and across the Philippines, applying skills in real workplaces.</p></article>
+              <article><span>05</span><small>SERVICE</small><h3>Community Extension</h3><p>Lasallian service through technology: digital literacy programs, community ICT projects, and extension work rooted in faith and mission.</p></article>
+            </div>
+          </div>
+        </section>
+        <section class="subsection facilities-section">
+          <div class="content-wrap">
+            <div class="section-label"><span>05</span><i></i><span>SUPPORT &amp; FACILITIES</span></div>
+            <div class="section-intro">
+              <h2>Everything You Need to Excel in Computing</h2>
+              <p>CCS provides the resources, relationships, and community that transform classroom learning into professional readiness, grounded in the Lasallian tradition of serving students as the primary mission.</p>
+            </div>
+            <div class="facility-grid">
+              <article><span>01</span><h3>Computer Laboratories</h3><p>Multiple purpose-built labs equipped with current hardware and licensed software across programming, networking, multimedia, and systems tracks.</p></article>
+              <article><span>02</span><h3>Industry Partnerships</h3><p>Formal agreements with technology companies and government agencies in Caraga Region, providing internship pipelines and guest instruction.</p></article>
+              <article><span>03</span><h3>Faculty Mentorship</h3><p>A dedicated faculty of computing specialists committed to personalized mentorship and the professional development of every student.</p></article>
+              <article><span>04</span><h3>Research Culture</h3><p>An active research program encouraging undergraduate inquiry into data, systems, and applied computing relevant to regional needs.</p></article>
+              <article><span>05</span><h3>Community Extension</h3><p>Structured programs bringing computing education and digital services to underserved communities in Bislig and surrounding areas.</p></article>
+              <article><span>06</span><h3>Lasallian Formation</h3><p>Formation programs integrating faith, character, and vocation while shaping graduates who are professionals and persons of integrity.</p></article>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="screen" data-page="admissions" hidden>
+        <section class="page-banner">
+          <div class="page-banner-inner">
+            <div class="page-label"><span>03</span><i></i><span>ADMISSIONS</span></div>
+            <h1>Begin your DLSJBC journey</h1>
+            <p>Review the existing admissions information and connect with the school for current, official enrollment guidance.</p>
+          </div>
+        </section>
+        <section class="admissions-content">
+          <div class="content-wrap">
+            <div class="admissions-lead">
+              <div class="admissions-copy">
+                <div class="section-label"><span>ADMISSIONS OPEN</span></div>
+                <h2>Begin Your Computing Journey<br />at De La Salle John Bosco College</h2>
+                <p>Applications are now open for Academic Year 2025–2026. Join a community of learners committed to excellence, ethics, and service in computing and discover how Lasallian formation shapes careers that matter.</p>
+                <div class="admissions-actions">
+                  <a class="button button-blue" href="#contact">Apply Now</a>
+                  <a class="button button-white" href="#academics">View Requirements</a>
+                </div>
+              </div>
+              <div class="admissions-crest"><img src="images/ccs-crest.png" alt="" /></div>
+            </div>
+            <div class="admissions-info">
+              <article><h2>Admission Requirements</h2><ul><li>Senior High School Graduate</li><li>Good Moral Character Certificate</li><li>Passing Entrance Examination Score</li><li>Interview with College Dean</li></ul></article>
+              <article><h2>Key Dates for A.Y. 2025–2026</h2><ul><li>Entrance Exam: May 2025</li><li>Enrollment: June–July 2025</li><li>Orientation: August 2025</li><li>First Day of Classes: August 2025</li></ul></article>
+              <article><h2>Contact Admissions</h2><ul><li>admissions@dlsjbc.edu.ph</li><li>+63 (086) 853-XXXX</li><li>Bislig City, Surigao del Sur 8311</li><li>Monday to Friday, 8:00 AM to 5:00 PM</li></ul></article>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="screen" data-page="news" hidden>
+        <section class="page-banner">
+          <div class="page-banner-inner">
+            <div class="page-label"><span>04</span><i></i><span>NEWS &amp; EVENTS</span></div>
+            <h1>Updates from the DLSJBC community</h1>
+            <p>A dedicated page for verified school announcements, activities, and upcoming events.</p>
+          </div>
+        </section>
+        <section class="news-empty">
+          <span class="news-icon" aria-hidden="true">▦</span>
+          <p class="panel-label">OFFICIAL UPDATES</p>
+          <h2>No verified announcements have been supplied</h2>
+          <p>Current news, event dates, and school activities should be published here only after confirmation through official De La Salle John Bosco College channels.</p>
+          <a class="button button-green" href="#contact">Contact the school</a>
+        </section>
+      </section>
+
+      <section class="screen" data-page="contact" hidden>
+        <section class="page-banner">
+          <div class="page-banner-inner">
+            <div class="page-label"><span>05</span><i></i><span>CONTACT US</span></div>
+            <h1>Connect with De La Salle John Bosco College</h1>
+            <p>Find the verified school location and guidance for requesting current contact information.</p>
+          </div>
+        </section>
+        <section class="contact-content content-wrap">
+          <article>
+            <span class="contact-icon" aria-hidden="true">⌖</span>
+            <p class="panel-label">SCHOOL LOCATION</p>
+            <h2>Bislig City, Surigao del Sur</h2>
+            <p>De La Salle John Bosco College<br />Bislig City, Surigao del Sur<br />Philippines</p>
+          </article>
+          <article>
+            <span class="contact-icon" aria-hidden="true">i</span>
+            <p class="panel-label">CONTACT GUIDANCE</p>
+            <h2>Confirm details through official channels</h2>
+            <p>Verified telephone numbers, email addresses, office hours, and social media links were not included in the supplied prototype. Confirm current details directly with the school before sending documents or making arrangements.</p>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <a class="footer-brand" href="#home">
+            <img src="images/ccs-crest.png" alt="CCS crest" />
+            <span><strong>College of Computer Studies</strong><small>DE LA SALLE JOHN BOSCO COLLEGE</small></span>
+          </a>
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="#home">Home</a><a href="#about">About Us</a><a href="#academics">Academics</a>
+            <a href="#admissions">Admissions</a><a href="#news">News &amp; Events</a><a href="#contact">Contact Us</a>
+          </nav>
+          <p class="motto">Fides · Servitum · Communitas</p>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 College of Computer Studies · De La Salle John Bosco College · Bislig City, Surigao del Sur</p>
+          <p>Bislig City, Philippines</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
